@@ -1,0 +1,33 @@
+/* styles.css */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #222;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+.slot-machine {
+  text-align: center;
+}
+
+.slot-container {
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  border: 2px solid #444;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.slot {
+  font-size: 2em;
+  text-align: center;
+  line-height: 100px;
+}
+
+.slot div {
+  height: 100px;
+}
