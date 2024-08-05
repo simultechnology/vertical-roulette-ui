@@ -42,8 +42,9 @@ function spinToResult(result: string) {
 }
 
 spinButton.addEventListener('click', () => {
-  const result = '⭐️';
+  const result = '🍇';
   spinToResult(result);
+  console.log(result);
 });
 
 // 同じ要素が連続しないようにシャッフルする関数

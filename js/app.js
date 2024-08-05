@@ -33,7 +33,7 @@ function spinToResult(result) {
     }, 100);
 }
 spinButton.addEventListener('click', function () {
-    var result = '⭐️';
+    var result = '⚽️';
     spinToResult(result);
 });
 // 同じ要素が連続しないようにシャッフルする関数
